@@ -1,0 +1,22 @@
+{
+    "name": "jwage/phpchunkit-demo",
+    "type": "library",
+    "description": "PHPChunkit Demo",
+    "keywords": ["tests", "phpunit", "phpchunkit"],
+    "homepage": "http://github.com/jwage/phpchunkit-demo",
+    "license": "MIT",
+    "authors": [
+        {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"}
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPChunkit\\Demo": "src/",
+            "PHPChunkit\\Test": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "jwage/phpchunkit": "dev-master"
+    },
+    "minimum-stability": "dev"
+}

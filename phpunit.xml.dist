@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./tests/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="PHPChunkit Demo Test Suite">
+            <directory suffix="Test.php">./tests/PHPChunkit/Test/Demo/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
